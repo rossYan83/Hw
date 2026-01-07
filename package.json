@@ -2,9 +2,11 @@
   "name": "hw",
   "version": "1.0.0",
   "description": "",
+   "homepage": "https://rossYan83.github.io/Hw/",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ./"
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
